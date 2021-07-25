@@ -54,3 +54,50 @@ address {
     color: white;
     margin-right: 70vw;
 }
+.white-heading {
+    color: white;
+}
+article {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h2 {
+    margin: 0 auto;
+}
+article > a {
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 10%;
+    padding: 10px;
+    width: 200px;
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+article > h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+article > p {
+    padding-top: 10px;
+}
+.works {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5vw;
+}
+#works-heading {
+    padding-bottom: 70px;
+}
+li > a:hover {
+    border-bottom: 2px solid rgba(132, 88, 179, 1);
+}
+.btn-link:hover {
+    border: 3px solid black;
+}
+a > img:hover {
+    transform: scale(1.1);
+}
